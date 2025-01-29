@@ -22,7 +22,7 @@ export default {
       fontFamily: {
         barlowReg: ["barlow-regular", "sans-serif"],
         barlowBold: ["barlow-bold", "sans-serif"],
-        barlowExtraBold: ["barlow-extraBold", "sans-serif"],
+        barlowSemiBold: ["barlow-semiBold", "sans-serif"],
         barlowLight: ["barlow-light", "sans-serif"],
         frauncesReg: ["fraunces-regular", "sans-serif"],
         frauncesBold: ["fraunces-bold", "sans-serif"],

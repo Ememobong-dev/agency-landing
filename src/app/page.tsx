@@ -5,6 +5,10 @@ import cupImg from "../../public/images/desktop/image-stand-out.jpg";
 import cherryImg from "../../public/images/desktop/image-graphic-design.jpg";
 import orange from "../../public/images/desktop/image-photography.jpg";
 import { Col, Row } from "antd";
+import Testimonial from "@/components/Testimonial";
+import ShowCase from "@/components/ShowCase";
+import Footer from "@/components/Footer";
+import TextAreaBox from "@/components/TextAreaBox";
 
 export default function Home() {
   return (
@@ -21,15 +25,10 @@ export default function Home() {
       </div>
       <Row justify={"center"}>
         <Col xs={22} lg={12}>
-          <div className="flex justify-center w-full h-full bg-[red] items-center">
-            <div className="flex flex-col pl-28">
-              <h3>Transform your brand</h3>
-              <p>We are a full-service creative agency specializing in</p>
-              <p>helping brands grow fast. Engage your clients through</p>
-              <p>compelling visuals that do most of the marketing for you.</p>
-              <p className="uppercase border-b-yellow  ">Learn More</p>
-            </div>
-          </div>
+          <TextAreaBox
+            title="Transform your brand"
+            description="We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you."
+          />
         </Col>
         <Col xs={22} lg={12}>
           <span className="w-full">
@@ -43,15 +42,10 @@ export default function Home() {
           </span>
         </Col>
         <Col xs={22} lg={12}>
-          <div className="flex justify-center w-full h-full bg-[red] items-center">
-            <div className="flex flex-col pr-28">
-              <h3>Transform your brand</h3>
-              <p>We are a full-service creative agency specializing in</p>
-              <p>helping brands grow fast. Engage your clients through</p>
-              <p>compelling visuals that do most of the marketing for you.</p>
-              <p className="uppercase border-b-yellow  ">Learn More</p>
-            </div>
-          </div>
+          <TextAreaBox
+            title="Stand out to the right audience"
+            description="Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. "
+          />
         </Col>
         <Col xs={22} lg={12}>
           <div className="flex justify-center  w-full items-center">
@@ -77,7 +71,7 @@ export default function Home() {
             <span className="relative w-full">
               <Image className="w-full" src={orange} alt="" />
             </span>
-            <div className="absolute bottom-20">
+            <div className="absolute bottom-20 border border-[red]">
               <span className="flex flex-col justify-center text-center mx-auto">
                 <p className="text-darkBlue flex justify-center text-center font-frauncesSoftBold font-bold text-3xl ">
                   Photography
@@ -92,6 +86,9 @@ export default function Home() {
           </div>
         </Col>
       </Row>
+      <Testimonial />
+      <ShowCase />
+      <Footer />
     </div>
   );
 }
