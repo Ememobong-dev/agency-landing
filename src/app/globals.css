@@ -13,6 +13,11 @@
 }
 
 @font-face {
+  font-family: "barlow-extraBold";
+  src: url(../../public/fonts/Barlow/Barlow-ExtraBold.ttf);
+}
+
+@font-face {
   font-family: "barlow-light";
   src: url(../../public/fonts/Barlow/Barlow-Light.ttf);
 }
@@ -34,7 +39,7 @@
 
 @font-face {
   font-family: "fraunces-soft-bold";
-  src: url(../../public/fonts/Fraunces/static/Fraunces_144pt_Soft-Bold.ttf);
+  src: url(../../public/fonts/Fraunces/static/Fraunces_144pt_SuperSoft-Bold.ttf);
 }
 
 body {
