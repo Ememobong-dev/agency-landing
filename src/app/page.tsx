@@ -71,7 +71,7 @@ export default function Home() {
             <span className="relative w-full">
               <Image className="w-full" src={orange} alt="" />
             </span>
-            <div className="absolute bottom-20 border border-[red]">
+            <div className="absolute bottom-20">
               <span className="flex flex-col justify-center text-center mx-auto">
                 <p className="text-darkBlue flex justify-center text-center font-frauncesSoftBold font-bold text-3xl ">
                   Photography

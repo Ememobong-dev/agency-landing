@@ -1,6 +1,6 @@
 import React from "react";
 
-const TextAreaBox = ({title,  description, }: {title:string;  description:string;}) => {
+const TextAreaBox = ({title,  description }: {title:string;  description:string;}) => {
   return (
     <div className="flex justify-center w-full h-full items-center">
       <div className="flex flex-col justify-center items-center text-base gap-y-8">
@@ -12,8 +12,8 @@ const TextAreaBox = ({title,  description, }: {title:string;  description:string
             {description}
           </p>
         </div>
-        <div className="text-lg border-b-4  cursor-pointer  uppercase w-1/2 font-frauncesSoftBold text-veryDarkDesaturatedBlue">
-          <h3 className="w-32 underline ">Learn More</h3>
+        <div className="text-lg  cursor-pointer  uppercase w-1/2 font-frauncesSoftBold text-veryDarkDesaturatedBlue">
+          <h3 className="w-32 underline border-b-yellow ">Learn More</h3>
         </div>
       
       </div>
