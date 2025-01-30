@@ -4,7 +4,6 @@ import Image from "next/image";
 import React, { useState } from "react";
 import brandLogo from "../../public/images/logo.svg";
 import hamburger from "../../public/images/icon-hamburger.svg";
-import hamburgerClose from "../../public/images/";
 import { CloseOutlined } from "@ant-design/icons";
 
 const Navbar = () => {
