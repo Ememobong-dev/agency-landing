@@ -53,3 +53,31 @@ body {
   background-size: cover;
   height: 700px;
 }
+
+
+
+.graphics_bg{
+  background: url("../../public/images/desktop/image-graphic-design.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.graphics_bg .descr,
+.graphics_bg p{
+  color: hsl(167, 40%, 24%) ;
+}
+
+.photography_bg{
+  background: url("../../public/images/desktop/image-photography.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.photography_bg .descr, 
+.photography_bg p {
+  color: hsl(198, 62%, 26%);
+}

@@ -9,23 +9,23 @@ import showcase4 from "../../public/images/desktop/image-gallery-sugarcubes.jpg"
 
 const ShowCase = () => {
   return (
-    <Row>
-        <Col lg={6}>
+    <Row className='w-full'>
+        <Col xs={12} lg={6}>
         <span className="w-full">
           <Image src={showcase1}  className="w-full" alt="" />
         </span>
         </Col>
-        <Col lg={6}>
+        <Col xs={12} lg={6}>
         <span className="w-full">
           <Image src={showcase2}  className="w-full" alt="" />
         </span>
         </Col>
-        <Col lg={6}>
+        <Col xs={12} lg={6}>
         <span className="w-full">
           <Image src={showcase3}  className="w-full" alt="" />
         </span>
         </Col>
-        <Col lg={6}>
+        <Col xs={12} lg={6}>
         <span className="w-full">
           <Image src={showcase4}  className="w-full" alt="" />
         </span>
